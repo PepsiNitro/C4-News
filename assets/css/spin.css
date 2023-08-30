@@ -1,0 +1,23 @@
+.spin {
+  margin: 10px;
+  min-width: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.spin img {
+  transition: all 1.5s;
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+
+.spin:hover img {
+  transform: scale(1.5) rotate(350deg);
+}
+
+body {
+  background-color: black;
+  color: white;
+}
