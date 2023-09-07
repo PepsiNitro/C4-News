@@ -20,14 +20,14 @@ body {
 	color: #666666;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
-	background: #fff;
+	background: #ffffff;
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
 }
 ::selection {
-	color: #fff;
+	color: #ffffff;
 	background: #0F60A0;
 }
 
@@ -275,7 +275,7 @@ a:hover {
 }
 .circle {
 	background: #6D6D6D;
-	color: #FFFFFF;
+	color: #ffffff;
 	line-height: 120px !important;
 	background: red;
 	display: block;
@@ -389,11 +389,11 @@ a:hover {
 	background-size: 100% 100%;
 	background-size: cover;
 	position: relative;
-	border-bottom: 2px #0F60A0 solid;
+	border-bottom: 1px #000000 solid;
 }
 .banner-container > img {
 	width: 100%;
-	height: 750px;
+	height: 780px;
 }
 .banner-content {
 	position: absolute;
@@ -416,7 +416,7 @@ a:hover {
 }
 .hero-text p {
 	font-size: 1.6em;
-	color: #fff;
+	color: #ffffff;
 	font-style: normal;
 	font-family: "Times New Roman", Times, serif;
 	text-shadow: 1px 1px 1px #8F8F8F;
@@ -526,17 +526,25 @@ img, video, iframe, embed, object {
 }
 /* Features
     -------------------------------------------------*/
+#features {
+	background-color: #000000;
+}
+
 #features h2 {
 	color: #ffffff;
+	
 }
 #features h4 {
 	color: #fff;
 }
 #features p {
-	color: #A1C7FF;
+	color: #ff4747;
+}
+#features a {
+	color: rgb(41, 116, 255);
 }
 #aboutUs {
-	background: #ffffff;
+	background-color: #00000000;
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
@@ -575,16 +583,25 @@ img, video, iframe, embed, object {
 /* Services
     -------------------------------------------------*/
 #services {
-	background: #DDDDDD;
+	background: #000000;
+}
+#services h2 {
+	color: white;
+}
+#services h3 {
+	color: white;
+}
+#services p {
+	color: blue;
 }
 .tbox {
 }
 .tbox1 h3 {
-	color: #555;
+	color: #ffffff;
 	text-align: left;
 }
 .tbox h3, .tbox p {
-	color: #555;
+	color: #ffffff;
 	text-align: left;
 	padding: 0 15px;
 }
@@ -670,7 +687,7 @@ img, video, iframe, embed, object {
 /* Team
     ---------------------------------------------------*/
 #team {
-	background: #008080;
+	background: #000000;
 }
 #team h2, #team p {
 	color: #fff;
